@@ -190,6 +190,8 @@ export default function NumbersEntrance() {
               );
             })}
           </div>
+          <div>Fee: Prize Pool / Ticket Count</div>
+          <div>Ticket Price: 2 KT</div>
         </div>
       ) : (
         <div>
