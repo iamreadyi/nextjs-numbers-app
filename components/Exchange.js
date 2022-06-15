@@ -68,9 +68,8 @@ export default function Exchange() {
   };
   return (
     <div className="p-5">
-      KT Exchange (1 KT = 0.01 ETH) KT Address:
-      0x67B784Bd5C986686A1fD78a2ffF192866D61C6ee Copy KT address to your wallet
-      to import KT
+      KT Exchange (1 KT = 0.01 ETH) Copy KT address to your wallet to import KT
+      <div>KT Address: 0x67B784Bd5C986686A1fD78a2ffF192866D61C6ee</div>
       {exchangeAddress && tokenAddress ? (
         <div>
           <div>
