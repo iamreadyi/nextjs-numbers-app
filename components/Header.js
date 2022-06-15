@@ -14,6 +14,7 @@ export default function Header() {
           <a
             href="https://rinkeby.etherscan.io/address/0x424E521Ef44e480C6C7a3D145Fc98b789106F64a"
             target="_blank"
+            rel="noreferrer"
           >
             Click here to see numbers contract on etherscan
           </a>
@@ -23,7 +24,7 @@ export default function Header() {
         <ConnectButton moralisAuth={false} />
         Contracts are on Rinkeby Testnet
         <div>
-          <a href="https://rinkebyfaucet.com/" target="_blank">
+          <a href="https://rinkebyfaucet.com/" rel="noreferrer" target="_blank">
             Click here for rinkeby faucet
           </a>
         </div>
