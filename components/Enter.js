@@ -149,7 +149,7 @@ export default function NumbersEntrance() {
                 });
               }}
             >
-              Approve NUMBERS for 100 KT
+              Approve numbers to buy ticket
             </button>
           </div>
 

@@ -69,7 +69,8 @@ export default function Exchange() {
   return (
     <div className="p-5">
       KT Exchange (1 KT = 0.01 ETH) KT Address:
-      0x67B784Bd5C986686A1fD78a2ffF192866D61C6ee
+      0x67B784Bd5C986686A1fD78a2ffF192866D61C6ee Copy KT address to your wallet
+      to import KT
       {exchangeAddress && tokenAddress ? (
         <div>
           <div>
@@ -102,7 +103,7 @@ export default function Exchange() {
                 });
               }}
             >
-              Approve EXCHANGE for 100 KT
+              Approve exchange to sell
             </button>
           </div>
 
